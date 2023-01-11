@@ -1,0 +1,56 @@
+body {
+    background-image: url(/Images/crop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btnpos {
+    display: flex;
+    justify-content: center;
+}
+
+.citpos {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 5px #999;
+    background: linear-gradient(45deg, #15591c, #bd7416);
+}
+
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+select {
+    border-radius: 8px;
+    border: 2px solid black;
+    box-shadow: 0 5px black;
+    background: linear-gradient(45deg, #15591c, #bd7416);
+    font-size: 1rem;
+}
+
+.hpcolor {
+    text-shadow: rgb(249, 177, 7) 1px 0 10px;
+    color: white;
+    font-size: 4rem;
+}
+
+.gcolor {
+    font-size: 4rem;
+    text-shadow: rgb(65, 134, 18) 1px 0 10px;
+}
+
+.gandhi {
+    width: 50%;
+}
+
+.lovecraft {
+    width: 50%;
+}

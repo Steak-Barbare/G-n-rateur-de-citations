@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssgenerator.css">
+    <title>Générateur de Citations</title>
+</head>
+
+<body>
+    <div class="btnpos">
+        <select name="" type="menu" id="myMenu">
+            <option value="0">--Choisissez un nombre de citations:--</option>
+            <option value="1" id="un">1</option>
+            <option value="2" id="deux">2</option>
+            <option value="3" id="trois">3</option>
+            <option value="4" id="quatre">4</option>
+            <option value="5" id="cinq">5</option>
+        </select>
+    </div>
+    <div class="citpos">
+        <div class="gandhi">
+            <h1 class="gcolor">Citations de Gandhi</h1>
+            <button onclick="nouvelleCitation()">Nouvelle Citation</button>
+            <div id="affichageCitation"></div>
+        </div>
+        <div class="lovecraft">
+            <h1 class="hpcolor">Citations de H.P. Lovecraft</h1>
+            <button onclick="nouvelleCitation2()">Nouvelle Citation</button>
+            <div id="affichageCitation2"></div>
+        </div>
+    </div>
+
+    <script src="scriptgenerator.js"></script>
+</body>
+
+</html>
